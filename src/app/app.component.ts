@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'JaDes Design';
-  products:any[];
+  products: any[];
 
   constructor(private http: HttpClient) { }
 
