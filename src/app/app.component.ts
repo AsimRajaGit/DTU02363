@@ -9,12 +9,13 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'JaDes Design';
   
-  constructor {private http: HttpClient} {}
+  constructor(private http: HttpClient) { }
 
-  ngOnInit{}: void {
-     this.http.get('http://localhost:5001/api/products').subscribe((response:any) => {
-       console function(error:any): void
-  },     error => {
-         console.log.{error};
+  ngOnInit(): void {
+     this.http.get('https://localhost:5001/api/products').subscribe((response: any) => {
+       console function(error: any): void
+      }, error => {
+         console.log(error);
      });
+    }
 }
