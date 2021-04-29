@@ -1,4 +1,4 @@
-import {Iproduct} from '.product';
+import {Iproduct} from './product';
 
 export  interface Ipagination {
     pageIndex: number;
